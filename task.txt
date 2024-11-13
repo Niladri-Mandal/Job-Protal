@@ -1,0 +1,4 @@
+job_portal123
+
+
+mongodb+srv://niladri1248be22:job_portal123@cluster0.aa8nn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
