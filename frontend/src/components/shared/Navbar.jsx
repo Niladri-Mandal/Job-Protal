@@ -24,11 +24,14 @@ function Navbar() {
           </h1>
         </div>
         <div>
-          <ul className="flex  justify-between gap-9 items-center font-medium">
-            <li>Home</li>
-            <li>Jobs</li>
-            <li>Browse</li>
-          </ul>
+        <ul className='flex font-medium items-center gap-5'>
+       
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/jobs">Jobs</Link></li>
+               
+
+
+    </ul>
         </div>
 
         <div>
