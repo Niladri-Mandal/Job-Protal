@@ -7,17 +7,27 @@ import { Button } from './components/ui/button'
 import Layout from './layout/Layout'
 import Login from './components/auth/Login'
 import Home from './components/Home'
+import Jobs from './components/Jobs'
+import Browse from './components/Browse'
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/'>
-      <Route path="/" element={<Layout/>}>
-          <Route path="/home" element={<Home/>}/>
+      <Route path="" element={<Layout/>}>
+          <Route path="" element={<Home/>}/>
+
+          <Route path="jobs" element={<Jobs />} /> 
+          <Route path="browse" element={<Browse/>} /> 
+          
+
+          
       </Route>
       <Route path='signup' element={<Signup />} />
       <Route path='login' element={<Login />} />
     </Route>
+
+    
     
   ),
   {

@@ -11,6 +11,7 @@ import store from "@/redux/store";
 
 function Navbar() {
     const {user}=useSelector(store=>store.auth)
+    //const user=true;
     console.log(user)
   return (
     <div className="shadow-md">
@@ -28,6 +29,7 @@ function Navbar() {
        
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/jobs">Jobs</Link></li>
+                    <li><Link to="/browse">Browse</Link></li>
                
 
 
